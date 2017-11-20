@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CourtCounter</string>
+    <string name="hint1">&#160;&#160;Enter Your Name</string>
+    <string name="info1">Scoring in Karate competitions is relatively simple. Scoring is limited to the following areas of the opponent\'s body:\n\n&#8226; Head\n&#8226; Face\n&#8226; Neck\n&#8226; Chest\n&#8226; Abdomen\n&#8226; Side\n&#8226; Back\n\nFighters can score one, two or three points for attacking techniques:\n\n&#8277; Ippon (three points) is awarded for:\n\n&#8226; A jodan kick (kick to upper level)\n&#8226; Any scoring technique performed on a fallen or thrown   opponent\n\n&#8277; Waza-ari (two points) is awarded for:\n\n&#8226; Chudan (mid level) kicks\n\n&#8277; Yuko (one point) is awarded for:\n\n&#8226; Chudan or Jodan Tsuki (mid or upper level punch)\n&#8226; Jodan or Chudan Uchi (mid or upper level punch).\n
+
+    </string>
+    <string name="ContestantA">Contestant A</string>
+    <string name="ContestantB">Contestant B</string>
+    <string name="points3">+3 Points</string>
+    <string name="points2">+2 Points</string>
+    <string name="points1">+1 Points</string>
+    <string name="resetting">Reset Score</string>
+</resources>

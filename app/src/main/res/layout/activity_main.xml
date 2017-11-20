@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/pic8"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.freelancing.ahmed.courtcounter.MainActivity">
+    <RelativeLayout
+        android:id="@+id/rltvlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/karate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="54dp"
+        android:alpha="0.9"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/avatar"
+                android:drawableTint="@color/purple"
+                android:hint="@string/hint1"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="@color/purple"
+                android:textSize="@dimen/textsizeET" />
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@color/orange"
+                android:text="Track Match Score"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txtsizeBtn" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageButton
+        android:id="@+id/karate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:alpha="1"
+        android:background="@drawable/user_profile_image_background"
+        android:contentDescription=""
+        android:elevation="4dp"
+        android:src="@drawable/coloredd" />
+</RelativeLayout>
